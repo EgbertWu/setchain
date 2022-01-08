@@ -1,0 +1,102 @@
+{
+	"config": {
+		"bootnodes": ["fnode://33914f6c3d0a4eb4cee2a5ba9309d6a3c4112649a5c9a0025462b9c6a1031f0e0c0ad0621a40a8cfe570b5e298eb76d394236214a48b89a90abbf00e9cec8aee@13.125.207.172:8989"],
+		"chainId": 1,
+		"chainName": "set",
+		"chainUrl": "test.com",
+		"accountParams": {
+			"level": 3,
+			"alllength":31,
+			"mainminlength": 3,
+			"mainmaxlength": 16,
+			"subminlength":2,
+			"submaxlength":16
+		},
+		"assetParams": {
+			"level": 3,
+			"alllength":31,
+			"mainminlength": 2,
+			"mainmaxlength": 16,
+			"subminlength":1,
+			"submaxlength":8
+		},
+		"chargeParams": {
+			"assetRatio": 80,
+			"contractRatio": 80
+		},
+		"upgradeParams": {
+			"blockCnt": 10000,
+			"upgradeRatio": 80
+		},
+		"dposParams": {
+			"maxURLLen": 512,
+			"unitStake": 10,
+			"candidateAvailableMinQuantity": 2350,
+			"candidateMinQuantity": 1100,
+			"voterMinQuantity": 1,
+			"activatedMinCandidate": 21,
+			"activatedMinQuantity": 100000,
+			"blockInterval": 3000,
+			"blockFrequency": 6,
+			"candidateScheduleSize": 21,
+			"backupScheduleSize": 10,
+			"epochInterval": 172800000,
+			"freezeEpochSize": 2,
+			"extraBlockReward": 0,
+			"blockReward": 0,
+			"halfEpoch": 52,
+			"roundReward": 540000000000000000000,
+			"roundPow": [100,95,94,93,92,91,90,86,82,78,74,70,66,62,60,58,56,54,52,50,48,0,0,0,0,0,0,0,0,0,0]
+		},
+		"snapshotInterval": 3600000,
+		"systemName": "setchain.founder",
+		"accountName": "setchain.account",
+		"assetName": "setchain.asset",
+		"dposName": "setchain.dpos",
+		"feeName": "setchain.fee",
+		"systemToken": "settoken"
+	},
+	"timestamp": 1629115200000,
+	"gasLimit": 30000000,
+	"difficulty": 1,
+	"allocAccounts": [{
+		"name": "setchain.founder",
+		"founder": "setchain.founder",
+		"pubKey": "0x04b9ac0a260e212b3b889009dfd1e827c1c096d609aa110e67a62a2f31b1e5bf3ff64c28648e8da60b1dc27e34e7b8cdeeda99c9524669bbd97b41d94990a19bb0"
+	}, {
+		"name": "setchain.account",
+		"founder": "setchain.founder",
+		"pubKey": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	}, {
+		"name": "setchain.asset",
+		"founder": "setchain.founder",
+		"pubKey": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	}, {
+		"name": "setchain.dpos",
+		"founder": "setchain.founder",
+		"pubKey": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	}, {
+		"name": "setchain.fee",
+		"founder": "setchain.founder",
+		"pubKey": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	}],
+	"allocCandidates": [],
+	"allocAssets": [{
+		"name": "settoken",
+		"symbol": "set",
+		"amount": 700000000000000000000000000,
+		"decimals": 18,
+		"founder": "setchain.founder",
+		"owner": "setchain.founder",
+		"upperLimit": 1000000000000000000000000000
+	}, {
+		"name": "gatoken",
+		"symbol": "ga",
+		"amount": 700000000000000000000000000,
+		"decimals": 18,
+		"founder": "setchain.founder",
+		"owner": "setchain.founder",
+		"upperLimit": 1000000000000000000000000000
+	}],
+	"remark":"Science and technology defend rights."
+}
